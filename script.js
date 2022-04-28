@@ -8,7 +8,7 @@ function calcular() {
     let gasolina = inputGasolina.value
 
     let val_eta = etanol/9
-    let val_gas = gasolina/127.
+    let val_gas = gasolina/12
 
     if(val_eta < val_gas) {
         resultado.innerHTML = `<p>Abastecer com Etanol</p>`
