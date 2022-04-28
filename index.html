@@ -10,17 +10,26 @@
 <body>
     
     <div class="container">
-        Etanol ou Gasolina?
-        Insira os valores abaixo e veja qual combustível compensa mais no momento!
-        <input type="number" id="val_gasolina" placeholder="Digite o valor da Gasolina">
-        <input type="number" id="val_etanol" placeholder="Digite o valor da Etanol">
-        <button onclick="calcular()">Verificar</button>
+        Etanol ou Gasolina?<br>
+        Insira os valores abaixo e veja qual combustível compensa mais no momento!<br>
+        <div class="etanol">
+            <label for="val_etanol">Etanol R$</label>
+            <input type="number" id="val_etanol" placeholder="Digite o valor da Etanol"><br>
+        </div>  
+        <div class="gasolina">
+            <label for="val_gasolina">Gasolina R$</label>
+            <input type="number" id="val_gasolina" placeholder="Digite o valor da Gasolina"><br>
+        </div>
+        <button id="botao_verificar" onclick="calcular()">Verificar</button>
+
+        <div id="resultado">
+
+        </div>
+
     </div>
 
-    <div class="resultado">
+    
 
-    </div>
-
-    <script src="./script.js"></script>
+    <script src="script.js"></script>
 </body>
 </html>
