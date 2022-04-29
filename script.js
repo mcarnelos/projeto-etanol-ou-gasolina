@@ -11,9 +11,9 @@ function calcular() {
     let val_gas = gasolina/12
 
     if(val_eta < val_gas) {
-        resultado.innerHTML = `<p>Abastecer com Etanol</p>`
+        resultado.innerHTML = `<p>Abastecer com <strong>Etanol</strong></p>`
     } else {
-        resultado.innerHTML = `<p>Abastecer com Gasolina</p>`
+        resultado.innerHTML = `<p>Abastecer com <strong>Gasolina</strong></p>`
     }
     
 }

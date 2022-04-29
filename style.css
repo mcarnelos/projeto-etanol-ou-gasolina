@@ -1,5 +1,5 @@
 html {
-    font-size: 62.5%;
+    height: 100vh;
 }
 
 body {
@@ -15,23 +15,49 @@ body {
 
 .container {
     margin: auto;
-    background-color: #a4a4a4ee;
-    max-width: 400px;
-    max-height: 100vh;
+    background-color: #0b2061f5;
+    max-width: 40rem;
     margin-top: 20rem;
     font-size: 2rem;
     text-align: center;
-    line-height: 4rem;
+    line-height: 5rem;
+    color: white;
+    border-radius: 1rem;
+    padding: 2rem;
+}
+
+.texto{
+    line-height: 3rem;
+    background-color: white;
+    color: #0b2061;
+    border-radius: 0.5rem;
+}
+
+#val_etanol {
+    margin-left: 2.2rem;
+    color: #0b2061;
+}
+
+#val_gasolina {
+    color: #0b2061;
+}
+
+#resultado {
+    background-color: white;
+    color: #0b2061;
+    border-radius: 1rem;
+}
+
+#botao_calcular {
+    background-color: white;
+    color: #0b2061;
+    padding: 0.8rem;
+    border-radius: 1rem;
+
 }
 
 @media only screen and (max-width: 95rem){
     html {
-        font-size: 60%;
-    }
-}
-
-@media only screen and (max-width: 65rem){
-    html {
-        font-size: 58%;
+        font-size: 62.5%;
     }
 }
